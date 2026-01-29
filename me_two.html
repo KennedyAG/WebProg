@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Albert Gibert Kennedy</title>
+	<style type="text/css">
+
+		body,html {font-family: Roboto,sans-serif}
+		h1 {text-align: center; color: green; size: 24px; margin-bottom: 30px}
+		h2 {color: purple; size: 14px; margin-bottom: 30px}
+		#meal { background-color: green;}
+		.left_side {width: 30%; display:inline-block;height:300px}
+		.right_side {width: 69%; display:inline-block;height:300px,}
+		#pets {width: 400px; margin: auto}
+		tr:nth-child(even) {background-color: #CCC;}
+		label {display: inline-block; width: 120px;}
+		input {display: inline-block; width: 200px}
+
+
+	</style>
+
+</head>
+<body>
+	<h1>Albert Gibert Kennedy</h1>
+	<br \>
+	<h2>Travel</h2>
+
+	<p id = "travel">In the autumn of 2022, my wife and I took my daughter to Florence to spend a few days with my her grandparents. Seren proved herself quite the saavy traveler, sampling much of the great cuisine that Florence had to offer. She tried octopus and fell in love with gelato. She was quite impressed by Michaelangelo's Statue of David.</p>
+
+	<div id = "pets">
+	<h2>Pet Names</h2>
+	<ul>
+		<li> A scruffy old mutt named Waldo. </li>
+		<li> Two beagles named Gem and Scout. </li>
+		<li> A sweet black cat named Frisky. </li>
+	</ul>
+	</div>
+
+
+	<br /> <br />
+<div id="favFoods">
+	<h2> Favorite Foods </h2>
+	<a href="https://mammalisapizza.com/" target="_blank">Mamma Lisa's Pizzeria</a> <br \>
+	<p>Mamma Lisa's Pizzeria does a solid slice, but where they really shine is with their Eggplant Parm Sub. It's so so good. Also it's a pretty chill place to sit. They've either got Pawn Stars or Leave It to Beaver on the TV. Very chill spot to stop in for some lunch after a long day of web programming... in fact...</p> <br /><br />
+	<div id = "meal">
+		<div class = "left_side">
+			<img src="images/eggplant.jpg" \>
+		</div>
+		<div class = "right_side">
+			<p>My favorite food is eggplant parmasean. It's just about the only dish I'll go to the trouble of deep-frying for. The trick is to sweat the sliced eggplant for at least 30 min prior to battering to remove the more bitter compounds, then pat dry before coating with seasoned flour, dredging in beaten egg, and covering with breadcrumbs (I prefer panko). Then deep fry until golden brown. Then we place that on a thin layer of tomato sauce, top with a bit of low moisture mozzerella and blast it under the broiler for a few couple minutes and serve with pasta of choice. Delicious... can you tell that I like eggplant parm?</p>
+		</div>
+	</div>
+</div> <!---End of favFoods--->
+
+
+<br \> <br \>
+<div class ="favBooks">
+	<table border="1"; cellpadding="4" cellspacing="2">
+		<tr>
+			<th>Title</th>
+			<th>Cover</th>
+			<th>Author</th>
+			<th>Description</th>
+		</tr>
+		<tr>
+			<td>Gardens of the Moon</td>
+			<td> <img src="images/gotm.png" height="120px"> </td>
+			<td>Steven <br \>Erikson</td>
+			<td>An epic fantasy series finds its beginning as the Malazan makes a move <br \>for the Free City of Darujhistan and awakens a terrible power.</td>
+		</tr>
+		<tr>
+			<td>Consider Phlebas</td>
+			<td> <img src="images/phlebas.jpg" height="120px"> </td>
+			<td>Ian M <br \>Banks</td>
+			<td>A sprawling Utopian human civilization led by superintelligent <br \>shipminds wages war against the Idiran Empire and their shapeshifting <br \>superspy, Horza.</td>
+		</tr>
+				<tr>
+			<td>Debt</td>
+			<td> <img src="images/debt.jpg" height="120px"> </td>
+			<td>David <br \>Graeber</td>
+			<td>Greaber dissects the role that debt and indebtedness play in our lives <br \> and in those of our ancestors, and how owing and owning were always <br \> thus. </td>
+		</tr>
+		<tr>
+			<td>The Graveyard Book</td>
+			<td> <img src="images/graveyard.jpg" height="120px"> </td>
+			<td>Neil <br \>Gaiman</td>
+			<td>Neil Gaiman, despite his ugly personal failings, has written a perfect <br \>children's story about fear, loss and growing up. </td>
+		</tr>
+	</table>
+</div> <!---End of favBooks--->
+<div id="guestbook">
+	<form action="#" method="get">
+		<h2>Sign my guestbook:</h2>
+
+		<label>First Name:</label>
+		<input type="text" name="first_name" id='first_name'>
+		<br \>
+		
+		<label>Last Name:</label>
+		<input type="text" name="last_name" id='last_name'>
+		<br />
+
+		<label>Email:</label>
+		<input type="text" name="email" id='email'>
+		<br />
+		
+		<label>City:</label>
+		<input type="text" name="city" id='city'>
+		<br \>
+
+		<label>State:</label>
+		<select name="state" id = 'state'>
+			<option value="MA">MA</option>
+			<option value="MA">ME</option>
+			<option value="MA">NH</option>
+			<option value="MA">RI</option>
+			<option value="MA">VT</option>
+		</select>
+		<br /><br />
+	</form>
+</div> <!---End of guestbook--->
+
+
+</body>
+</html>
