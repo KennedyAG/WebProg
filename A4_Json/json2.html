@@ -12,7 +12,7 @@
 
 	<script>
 		$.get("songs.json",	function(data){
-
+			console.log("data recieved: ", data);
 			var htmlText = "";
 
 			data.forEach(function(song) {
@@ -33,3 +33,4 @@
 </body>
 
 </html>
+
