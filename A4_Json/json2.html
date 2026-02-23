@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>JSON2</title>
+	<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+
+	<div id = "answer"></div>
+
+	<script>
+		$.get("songs.json",	function(data){
+
+			var htmlText = ""
+
+			data.forEach(function(song) {
+				var genres = song.genre.join(", ");
+
+				htmlText += "<div class = song id = '"+song.title+"'>"
+				htmlText += "<h3>"+song.title+"</h3>";
+				htmlText +=	"<p>Artist: "+song.artist+"</p>";
+				htmlText += "<p>Genre: "+genres+"</p>";
+				htmlText += "<p>Released: "+song.year+"</p></div>"
+			})
+			document.getElementById("answer").innerHTML = htmlText
+		})
+
+	</script>
+
+
+</body>
+</html>

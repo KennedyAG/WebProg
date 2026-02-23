@@ -1,0 +1,50 @@
+[
+	{
+		"title"	: "Bohemian Rhapsody",
+		"artist": "Queen", 
+		"year"	: "1975",
+		"genre"	: ["Rock"]
+	},
+	{
+		"title"	: "Old Town Road",
+		"artist": "Lil Nas X", 
+		"year"	: "2019",
+		"genre"	: ["Country", "Hip Hop"]
+	},
+	{
+		"title"	: "Jolene",
+		"artist": "Dolly Parton", 
+		"year"	: "1973",
+		"genre"	: ["Country"]
+	},
+	{
+		"title"	: "Montero",
+		"artist": "Lil Nas X", 
+		"year"	: "2021",
+		"genre"	: ["Hip Hop"]
+	},
+	{
+		"title"	: "9 to 5",
+		"artist": "Dolly Parton", 
+		"year"	: "1980",
+		"genre"	: ["Country"]
+	},
+	{
+		"title"	: "Another One Bites the Dust",
+		"artist": "Queen", 
+		"year"	: "1980",
+		"genre"	: ["Rock"]
+	},
+	{
+		"title"	: "Industry Baby",
+		"artist": "Lil Nas X", 
+		"year"	: "2021",
+		"genre"	: ["Hip Hop"]
+	},
+	{
+		"title"	: "We Will Rock You",
+		"artist": "Queen", 
+		"year"	: "1977",
+		"genre"	: ["Rock"]
+	},
+]
