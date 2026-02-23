@@ -13,22 +13,23 @@
 	<script>
 		$.get("songs.json",	function(data){
 
-			var htmlText = ""
+			var htmlText = "";
 
 			data.forEach(function(song) {
 				var genres = song.genre.join(", ");
 
-				htmlText += "<div class = song id = '"+song.title+"'>"
+				htmlText += "<div class = song id = '"+song.title+"'>";
 				htmlText += "<h3>"+song.title+"</h3>";
 				htmlText +=	"<p>Artist: "+song.artist+"</p>";
 				htmlText += "<p>Genre: "+genres+"</p>";
-				htmlText += "<p>Released: "+song.year+"</p></div>"
-			})
-			document.getElementById("answer").innerHTML = htmlText
-		})
+				htmlText += "<p>Released: "+song.year+"</p></div>";
+			});
+			document.getElementById("answer").innerHTML = htmlText;
+		}, "json");
 
 	</script>
 
 
 </body>
+
 </html>
